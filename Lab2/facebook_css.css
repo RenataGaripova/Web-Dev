@@ -1,0 +1,179 @@
+.main {
+    background-color: rgb(242, 244, 247);
+    height:775px;
+    width:1469px;
+}
+
+
+#logo {
+    width:45%;
+    height:45%;
+    margin-top:170px;
+}
+
+
+#description {
+    font-family: "Helvetica";
+    margin-left:215px;
+    font-size:21pt;
+    white-space: pre-line;
+    float:left;
+}
+
+.login {
+    width:410px;
+    height:355px;
+    background-color: white;
+    float:right;
+    margin-top:170px;
+    margin-right: 255px;
+    border-radius: 10px;
+    box-shadow: 7px 7px 7px rgb(235, 235, 235);
+    float:inline-start;
+    font-family:"Helvetica";
+}
+
+
+.login input{
+    height:45px;
+    width: 360px;
+    margin:15px;
+    box-shadow: 0px 0px 0px;
+    border: 1px solid #ccc;
+    color:grey;
+    margin-left: 25px;
+    margin-right: 25px; 
+}
+
+.login input::placeholder {
+    font-size:13pt;
+    padding:10px;
+}
+
+
+.login button {
+    height:45px;
+    width: 360px;
+    margin:15px;
+    background-color:rgb(7,102,255);
+    box-shadow: 0px 0px 0px;
+    border:0px;
+    color:white;
+    font-size:15pt;
+    font-weight:bold;
+    text-align: center;
+    padding: 10px;
+    margin-left: 25px;
+    margin-right: 25px; 
+    
+}
+
+.login button:hover{
+    background: rgb(40, 122, 255);
+}
+
+.login button:active{
+    background: rgb(34, 105, 219);
+    width: 342px;
+    height:43px;
+    /* margin-left:34px;
+    margin-right:34px; */
+}
+
+#create-acc {
+    width:200px;
+    height:40px;
+    background-color:rgb(113, 227, 0);
+    color:white;
+    font-size: 10pt;
+    margin-left: 105px;
+    margin-right: 105px;
+}
+
+#create-acc:hover{
+    background: rgb(96, 193, 0);
+}
+
+
+#create-acc:active{
+    background: rgb(34, 105, 219);
+    width: 190px;
+    height: 38px;
+    background-color:rgb(96, 193, 0);
+}
+
+#forgot-passw {
+    color:rgb(7,102,255);
+    font-size: 12pt;
+    /* margin-left: 130px;
+    margin-right: 130px; */
+    text-align: center;
+}
+
+
+#forgot-passw:hover {
+    text-decoration: underline;
+}
+
+#line {
+    border-top: 1px solid grey;
+    margin:0;
+    border-radius:0;
+    box-shadow:0px 0px 0px;
+    width:360px;
+    height:15px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#under-text {
+    text-align: center;
+    font-size:10pt; 
+    margin-top:100px;
+    white-space: pre-line;
+};
+
+
+.footer {
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #606770;
+    margin-top: 800px;
+}
+.footer a {
+    color: #606770;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
+
+
+.page-bottom {
+    margin:100px;
+    background-color: white;
+}
+
+
+.links {
+    margin:10px;
+    font-family: "Helvetica";
+    font-size:7pt;
+    color:grey;
+    margin-left:230px;
+    text-align: left;
+}
+
+.links > a:active, .links > a:visited {
+    color:grey;
+    text-decoration: none;
+}
+
+
+.links > a, .links > button, .links > p {
+    margin:10px;
+    text-align: left;
+}

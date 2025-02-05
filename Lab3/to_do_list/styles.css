@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+  }
+
+#header {
+    background-color: black;
+    font-size: 15pt;
+    color:grey;
+    text-indent:20px;
+}
+
+#name {
+    font-size: 20pt;
+    margin:50px;
+    margin-left: 200px;
+}
+
+#myForm {
+    display: flex;
+    align-items: center;
+    margin-left: 250px;
+}
+
+#myInput {
+    height:35px;
+    width:700px;
+    margin-right:35px;
+    text-indent:10px;
+    color:grey;
+    font-size: 9pt;
+    border-radius: 5px;
+    border:1px solid grey;
+}
+
+#myAdd {
+    height:40px;
+    width:50px;
+    background-color:rgb(31, 115, 206);
+    border:5px solid rgb(31, 115, 206);
+    color:white;
+    border-radius:5px;
+    font-size: 9pt;
+}
+
+#myAdd:active {
+    height:36px;
+    width:45px;
+    background-color:rgb(27, 97, 172);
+    border:5px solid rgb(27, 97, 172);
+    font-size: 8pt;
+}
+
+#toDoList {
+    margin-left: 200px;
+    list-style-type: none;
+    margin-top:50px;
+}
+
+.task {
+    display: flex;
+    align-items:center;
+    border:1px solid rgb(172, 172, 172);
+    border-radius: 5px;
+    height:40px;
+    width:800px;
+    text-indent:40px;
+    padding:20px;
+}
+
+
+.delBox {
+    width:50px;
+    height:50px;
+    border:none;
+    background-image: url('trash-img.png');
+    background-size: cover;
+    background-color: white;
+    display: flex;
+}
+
+.delBox:active {
+    width:45px;
+    height:45px;
+}
+
+.checkbox {
+    transform: scale(1.5);
+}
+
+.taskTxt:checked {
+    text-decoration: line-through;
+}
+
+.checkbox:checked + label{
+    text-decoration: line-through;
+}
+
+label {
+    width:700px;
+}

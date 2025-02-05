@@ -1,0 +1,106 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.main {
+    margin-bottom:50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#phones {
+    width:420px;
+    height:642px;
+    margin-left:350px;
+    margin-right:10px;
+}
+
+
+.login {
+    margin-top:50px;
+    height:642px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    vertical-align: top;
+    margin-right:360px;
+    width:355px;
+    margin-bottom:10px;
+
+}
+
+.login-bottom, .login-top {
+    border:1px solid rgb(214, 214, 214);
+    width:355px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    vertical-align: center;
+}
+
+.login-top {
+    height:415px;
+    margin-bottom:10px;
+}
+
+#logo {
+    width:50%;
+    height:20%;
+    align-self: center;
+    margin-top:30px;
+    margin-bottom:10px;
+}
+
+
+.login-top button, .login-top input {
+    width:270px;
+    height:40px;
+    margin:5px;
+}
+
+.login-top input {
+    border: 1px solid rgb(214, 214, 214);
+    color:grey;
+    border-radius: 3px;
+}
+
+.login-top input::placeholder {
+    font-size:9pt;
+    padding:10px;
+}
+
+.login-top input:focus {
+    outline: 0.5px solid grey;
+}
+
+.login-top button {
+    background-color: rgb(0,149,246);
+    border:0;
+    border-radius: 8px;
+    color:white;
+}
+
+.login-top button:hover{
+    background: rgb(0, 129, 215);
+}
+
+#or-pic {
+    width:80%;
+    height:10%;
+}
+
+#face-logo-mini {
+    width:30%;
+    height:45%;
+}
+
+#face-link {
+    color:rgb(0, 129, 215);
+    text-decoration: none;
+    width:200px;
+}
