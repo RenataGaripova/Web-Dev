@@ -1,9 +1,12 @@
-document.addEventListener('DOMContentLoaded', function() {
-    const myForm = document.getElementById('myForm')
+// Script will start working when the html-page is loaded
+document.addEventListener('DOMContentLoaded', function() { 
+    // Getting our html form and unordered list by IDs
+    const myForm = document.getElementById('myForm') 
     const toDoList = document.getElementById('toDoList')
 
     function addTask(task) {
-        const li = document.createElement('li');
+        // We will add a checkbox, the task itself and delete button into <li> elements
+        const li = document.createElement('li'); 
         li.className = 'task';
 
         const checkbox = document.createElement('input');
@@ -26,8 +29,9 @@ document.addEventListener('DOMContentLoaded', function() {
         return li;
     }
 
+    // When a user adds a new task, we create a new <li> element and add to <ul>
     myForm.addEventListener('submit', function(event) {
-        event.preventDefault();
+        event.preventDefault(); // Helps us to prevent page reload
 
         const Task = document.getElementById('myInput').value;
 
@@ -41,6 +45,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
     );
 
+    // When a user clicks on a delete button, we remove the task from <ul>
     toDoList.addEventListener('click', function(event) {
         if (event.target.tagName == 'BUTTON') {
             const Item = event.target.parentNode;
