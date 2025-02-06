@@ -36,11 +36,9 @@ document.addEventListener('DOMContentLoaded', function() {
         const Task = document.getElementById('myInput').value;
 
         if (Task != '') {
+            document.getElementById('myInput').value = '';
             const Item = addTask(Task);
-
             toDoList.appendChild(Item);
-
-            document.getElementById('myForm').value = '';
         }
     }
     );
