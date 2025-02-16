@@ -50,6 +50,5 @@ document.addEventListener('DOMContentLoaded', function() {
             toDoList.removeChild(Item);
         }
     })
-
    
 });

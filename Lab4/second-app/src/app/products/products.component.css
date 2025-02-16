@@ -1,0 +1,64 @@
+.listing {
+    border: solid black 1px;
+    border-radius: 20px;
+    padding:10px;
+    width:350px;
+    height:450px;
+    display: inline-block;
+    vertical-align: middle;
+    align-content: center;
+    text-align: center;
+    margin: 20px;
+  }
+  .listing-heading {
+    color: rgb(0,137,208);
+    font-size: 13pt;
+  }
+
+  .listing-rating {
+    font-size: 9pt;
+  }
+
+  .listing-description {
+    font-size: 9pt;
+    overflow: scroll;
+    margin:15px;
+  }
+
+  .listing-image {
+    border-radius: 30px;
+    width:40%;
+    height:45%;
+}
+
+a {
+    font-size: 8pt;
+    padding:10px;
+    margin:5px;
+    color: white;
+    text-decoration: none;
+}
+
+.listing-kaspi {
+    background-color: rgb(255, 91, 77);
+}
+
+.listing-kaspi:active, .listing-kaspi:hover {
+    background-color: rgb(218, 68, 54);
+}
+
+.listing-share-tg:active, .listing-share-tg:hover {
+    background-color: rgb(28, 123, 171);
+}
+
+.listing-share-tg {
+  background-color:rgb(36, 161, 222);
+}
+
+.listing-share-wp {
+  background-color:rgb(37,211,102);
+}
+
+.listing-share-wp:active, .listing-share-wp:hover {
+  background-color: rgb(34, 171, 84);
+}
