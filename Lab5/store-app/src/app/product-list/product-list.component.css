@@ -1,0 +1,44 @@
+.category {
+    border: solid black 1px;
+    border-radius: 20px;
+    padding:10px;
+    width:280px;
+    height:380px;
+    display: inline-block;
+    vertical-align: middle;
+    align-content: center;
+    text-align: center;
+    margin:10px;
+    margin-top: 50px;
+}
+
+.category-heading {
+    color: rgb(0,137,208);
+    font-size: 12pt;
+    margin: 15px;
+}
+
+.category-photo {
+    border-radius: 30px;
+    width:50%;
+    height:50%;
+}
+
+.category-link {
+    font-size: 8pt;
+    padding:8px;
+    margin-top:25px;
+    text-decoration: none;
+    background-color:rgb(235, 235, 235);
+    border-radius: 5px;
+    color:black;
+}
+
+.category-description {
+    font-size: 8pt;
+    margin-bottom:15px;
+}
+
+.category-link:active, .category-link:hover {
+    background-color: rgb(176, 176, 176);
+}
