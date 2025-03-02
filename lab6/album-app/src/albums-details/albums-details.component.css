@@ -1,0 +1,53 @@
+.header-menu {
+    height: 80px;
+    width: 100%;
+    background-color: white;
+    border-radius: 5px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-box-shadow: 4px 4px 15px 0px rgba(24, 57, 82, 0.2);
+    -moz-box-shadow: 4px 4px 15px 0px rgba(24, 57, 82, 0.2);
+    box-shadow: 4px 4px 15px 0px rgba(24, 57, 82, 0.2);
+    font-family: Helvetica;
+}
+
+.header-menu img {
+    width: 5%;
+    height: 95%;
+}
+
+.header-menu a {
+    text-decoration: none;
+    margin: 15px;
+}
+
+.album-details {
+    margin: 50px;;
+    display: block;
+    align-items: center;
+    justify-content: left;
+    font-family: Helvetica;
+}
+
+.album-details p {
+    margin: 10px;
+}
+
+.title-input {
+    margin-top: 30px;
+    height: 20px;
+}
+
+.save-title {
+    margin-left: 10px;
+    width: 60px;
+    height: 20px;
+    color: white;
+    background-color: rgb(37,211,102);
+}
+
+.save-title:hover, .save-title:active {
+    background-color: rgb(35, 177, 87);
+}

@@ -1,0 +1,77 @@
+.albums-list {
+    width:100%;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    margin: 50px;
+}
+
+.album {
+    width:300px;
+    height:400px;
+    vertical-align: middle;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    margin: 20px;
+    font-family: Helvetica;
+    border: 1px solid grey;
+    text-align:center;
+    font-size: 10pt;
+}
+
+.album p {
+    margin-top: 10px;
+}
+
+.album button {
+    margin-top: 20px;
+    margin: 15px;
+    width: 90px;
+    height: 20px;
+    border:none;
+    color:white;
+}
+
+.header-menu {
+    height: 80px;
+    width: 100%;
+    background-color: white;
+    border-radius: 5px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-box-shadow: 4px 4px 15px 0px rgba(24, 57, 82, 0.2);
+    -moz-box-shadow: 4px 4px 15px 0px rgba(24, 57, 82, 0.2);
+    box-shadow: 4px 4px 15px 0px rgba(24, 57, 82, 0.2);
+    font-family: Helvetica;
+}
+
+.header-menu img {
+    width: 5%;
+    height: 95%;
+}
+
+.header-menu a {
+    text-decoration: none;
+    margin: 15px;
+}
+
+.description-button {
+    background-color: rgb(36, 161, 222);
+}
+
+.description-button:active, .description-button:hover {
+    background-color: rgb(20, 90, 125);
+}
+
+.remove-button {
+    background-color: rgb(238, 69, 54);
+}
+
+.remove-button:active, .remove-button:hover {
+    background-color: rgb(138, 43, 34);
+}

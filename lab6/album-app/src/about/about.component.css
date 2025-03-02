@@ -1,0 +1,32 @@
+.header-menu {
+    height: 80px;
+    width: 100%;
+    background-color: white;
+    border-radius: 5px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-box-shadow: 4px 4px 15px 0px rgba(24, 57, 82, 0.2);
+    -moz-box-shadow: 4px 4px 15px 0px rgba(24, 57, 82, 0.2);
+    box-shadow: 4px 4px 15px 0px rgba(24, 57, 82, 0.2);
+    font-family: Helvetica;
+}
+
+.header-menu img {
+    width: 5%;
+    height: 95%;
+}
+
+.header-menu a {
+    text-decoration: none;
+    margin: 15px;
+}
+
+.about-content {
+    margin: 50px;;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    font-family: Helvetica;
+}

@@ -1,0 +1,47 @@
+.home-page {
+    display:inline-block;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    width: 100%;
+    margin-left: 100px;
+    margin-right: 150px;
+    margin-top: 50px;
+}
+
+.home-page img {
+    margin:50px;
+    float: left;
+    width:30%;
+    height:30%;
+}
+
+.info {
+    display:block;
+    align-items: center;
+    justify-content: center;
+    font-family: "Helvetica";
+    width:100%;
+    margin-top: 100px;
+    margin-left: 500px;
+    font-size: 15pt;
+}
+
+.info .header-1 {
+    font-size: 35pt;
+    font-style: italic;
+}
+
+.links {
+    list-style-type: none;
+    margin-top: 40px;
+}
+
+.links a {
+    text-decoration: none;
+    font-size: 20pt;
+}
+
+.links li {
+    margin-bottom: 20px;
+}
