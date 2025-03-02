@@ -15,13 +15,12 @@ import { RouterModule } from '@angular/router';
       <img src="assets/icons8-home-480.png"> <a routerLink="/home">Home</a>
       <a [routerLink]="['/albums', albumId]" class="return-link">Return</a>
     </header>
-    <ng-container *ngFor="let albumPhoto of albumPhotos"> 
+    <ng-container *ngFor="let albumPhoto of albumPhotos" class="album-photos"> 
       <section class="photo">
           <img src={{albumPhoto.thumbnailUrl}}>
           <p>Value fot Id: {{albumPhoto.id}}</p>
       </section>
     </ng-container>
-    <p>album photos works</p>
   `,
   styleUrl: 'album-photos.component.css',
   providers:[AlbumsService],
@@ -38,6 +37,9 @@ export class AlbumPhotosComponent implements OnInit {
 
   ngOnInit(){
     console.log('PhotosComponent loaded!');
-    this.albumsService.getPhotosById(this.albumId,`https://jsonplaceholder.typicode.com/albums/${this.albumId}/photos`).subscribe({next: (data: any) => this.albumPhotos=data});
-  }
+    this.albumsService.getPhotosById(this.albumId,`https://jsonplaceholder.typicode.com/albums/${this.albumId}/photos`).subscribe({next: (data: any) => this.albumPhotos=data.map((photo: { thumbnailUrl: string; }) => ({
+      ...photo,
+      thumbnailUrl: photo.thumbnailUrl.replace('via.placeholder.com', 'dummyimage.com')}))
+    });
+}
 }

@@ -22,3 +22,9 @@
     text-decoration: none;
     margin: 15px;
 }
+
+.photo {
+    display: inline-block;
+    align-items: center;
+    padding: 15px;;
+}
