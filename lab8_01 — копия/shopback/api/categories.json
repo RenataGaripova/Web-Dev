@@ -1,0 +1,19 @@
+[
+{
+    "name": "Smartphones",
+    "description": "Explore our wide selection of smartphones, featuring the latest models with powerful performance, stunning displays, and advanced cameras for every need."
+  },
+  {
+    "name": "Laptops",
+    "description": "Our store offers a wide variety of laptops, from budget-friendly options to high-performance models, perfect for work, gaming, or everyday use."
+  },
+  {
+
+    "name": "Smartwatch",
+    "description": "Discover our diverse range of smartwatches, offering fitness tracking, notifications, and stylish designs to keep you connected and active throughout the day."
+  },
+  {
+    "name": "Earphones and Headphones",
+    "description": "Enjoy premium sound with our extensive collection of headphones and earphones, including wireless, noise-canceling, and high-fidelity options for music lovers and professionals alike."
+  }
+]

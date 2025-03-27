@@ -1,0 +1,163 @@
+[
+    {
+      
+      "name": "Apple iPhone 13 128Gb Black",
+      "price":100.0,
+      "description": "The iPhone 13 features a 6.1-inch (155 mm) display with Super Retina XDR OLED technology at a resolution of 2532×1170 pixels and a pixel density of about 460 PPI with a refresh rate of 60 Hz.",
+      "count": 0,
+      "is_active": true
+    },
+    {
+      
+      "name": "Samsung Galaxy A25 5G 6 Gb/128 Gb",
+      "price":100.0,
+      "description": "The Galaxy A25 5G 6.5 inch, Super AMOLED display expresses rich colors and details up to 1000 nits brightness while enhanced with Vision Booster for clear outdoor visibility",
+      "count": 0,
+      "is_active": true
+    },
+    {
+      
+      "name": "Xiaomi Redmi 13C",
+      "price":100.0,
+      "description": "The Xiaomi Redmi 13C features an ultra-high-performance 2.0 GHz Helio G85 Octo-Core processor for superior performance. Moreover, with 8 GB of RAM and 256 GB of storage space, it lets you install all your applications without the slightest problem.",
+      "count": 0,
+      "is_active": true
+    },
+    {
+      
+      "name": "Apple iPhone 16 Pro Max 256Gb Golden",
+      "price":100.0,
+      "description": "iPhone 16 is built for Apple Intelligence, the personal intelligence system that helps you write, express yourself and get things done effortlessly. With groundbreaking privacy protections, it gives you peace of mind that no one else can access your data — not even Apple.",
+      "count": 0,
+      "is_active": true
+    },
+    {
+      
+      "name": "Samsung Galaxy A55 5G 8 Gb/256 Gb Deep Blue",
+      "price":100.0,
+      "description": " The new Galaxy A55 is no different, packing solid all-round specs, a large, 6.6-inch display, a capable octa-core processor and a triple rear-camera setup.",
+      "count": 0,
+      "is_active": true
+    },
+    {
+      
+      "name": "Laptop ThundeRobot 911 X Wild Hunter G2 Pro 15.6''/16 Gb/SSD 512 Gb/",
+      "price":100.0,
+      "description": " The new Galaxy A55 is no different, packing solid all-round specs, a large, 6.6-inch display, a capable octa-core processor and a triple rear-camera setup.",
+      "count": 0,
+      "is_active": true
+    },
+    {
+      
+      "name": "Apple MacBook Air 13 2022 13.6''/8 Gb/SSD 256 Gb/",
+      "price":100.0,
+      "description": "The new Galaxy A55 is no different, packing solid all-round specs, a large, 6.6-inch display, a capable octa-core processor and a triple rear-camera setup.",
+      "count": 0,
+      "is_active": true
+    },
+    {
+      
+      "name": "Acer Gadget E10 ETBook 14''/16 Gb/SSD 512 Gb",
+      "price":100.0,
+      "description": "The new Galaxy A55 is no different, packing solid all-round specs, a large, 6.6-inch display, a capable octa-core processor and a triple rear-camera setup.",
+      "count": 0,
+      "is_active": true
+    },
+    {
+      
+      "name": "ASUS Vivobook Go 15 15.6''/16 Gb/SSD 512 Gb",
+      "price":100.0,
+      "description": " The new Galaxy A55 is no different, packing solid all-round specs, a large, 6.6-inch display, a capable octa-core processor and a triple rear-camera setup.",
+      "count": 0,
+      "is_active": true
+    },
+    {
+      
+      "name": "Apple MacBook Pro 16 2021 16.2''/16 Gb/SSD 512 Gb",
+      "price":100.0,
+      "description": " The new Galaxy A55 is no different, packing solid all-round specs, a large, 6.6-inch display, a capable octa-core processor and a triple rear-camera setup.",
+      "count": 0,
+      "is_active": true
+    },
+    {
+      
+      "name": "Apple Watch SE GPS Gen.2 2024 S/M",
+      "price":100.0,
+      "description": " The new Galaxy A55 is no different, packing solid all-round specs, a large, 6.6-inch display, a capable octa-core processor and a triple rear-camera setup.",
+      "count": 0,
+      "is_active": true
+    },
+    {
+      
+      "name": " Xiaomi Redmi Watch 5 Active 51mm",
+      "price":100.0,
+      "description": "The new Galaxy A55 is no different, packing solid all-round specs, a large, 6.6-inch display, a capable octa-core processor and a triple rear-camera setup.",
+      "count": 0,
+      "is_active": true
+    },
+    {
+      
+      "name": "Huawei Watch Fit 3",
+      "price":100.0,
+      "description": " The new Galaxy A55 is no different, packing solid all-round specs, a large, 6.6-inch display, a capable octa-core processor and a triple rear-camera setup.",
+      "count": 0,
+      "is_active": true
+    },
+    {
+      
+      "name": "Watches Y-13 SW 43 mm",
+      "price":100.0,
+      "description": " The new Galaxy A55 is no different, packing solid all-round specs, a large, 6.6-inch display, a capable octa-core processor and a triple rear-camera setup.",
+      "count": 0,
+      "is_active": true
+    },
+    {
+      
+      "name": "Huawei Watch GT 5 Pro 46 mm",
+      "price":100.0,
+      "description": " The new Galaxy A55 is no different, packing solid all-round specs, a large, 6.6-inch display, a capable octa-core processor and a triple rear-camera setup.",
+      "count": 0,
+      "is_active": true
+    },
+    {
+      
+      "name": " Apple AirPods 3 with Lightning Charging Case",
+      "price":100.0,
+      "description": " The new Galaxy A55 is no different, packing solid all-round specs, a large, 6.6-inch display, a capable octa-core processor and a triple rear-camera setup.",
+      "count": 0,
+      "is_active": true
+    },
+    {
+      
+      "name": "Apple AirPods Pro 2",
+      "price":100.0,
+      "description": "The new Galaxy A55 is no different, packing solid all-round specs, a large, 6.6-inch display, a capable octa-core processor and a triple rear-camera setup.",
+      "count": 0,
+      "is_active": true
+    },
+    {
+      
+      "name": "HeadPhones OEM P9",
+      "price":100.0,
+      "description": "The new Galaxy A55 is no different, packing solid all-round specs, a large, 6.6-inch display, a capable octa-core processor and a triple rear-camera setup.",
+      "count": 0,
+      "is_active": true
+    },
+    {
+      
+      "name": "Newest M10 Newest",
+      "price":100.0,
+      "description": " The new Galaxy A55 is no different, packing solid all-round specs, a large, 6.6-inch display, a capable octa-core processor and a triple rear-camera setup.",
+      "count": 0,
+      "is_active": true
+    },
+    {
+      
+      "name": "Marshall Major IV",
+      "price":100.0,
+      "description": " The new Galaxy A55 is no different, packing solid all-round specs, a large, 6.6-inch display, a capable octa-core processor and a triple rear-camera setup.",
+      "count": 0,
+      "is_active": true
+    }
+  ]
+
